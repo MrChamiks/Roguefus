@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.8
+
+**Arène des âmes**
+- Nouvelle Taverne des âmes : le soleil à côté du panneau des contrats y mène. Ilyzaelle, la maîtresse des âmes, y vend des pierres d'âme.
+- Capture : après une victoire en chasse, en donjon ou dans la Tour, l'âme d'un monstre vaincu se capture avec des pierres d'âme (une chance sur deux, une sur cinq pour un boss).
+- Bestiaire : jusqu'à 60 âmes, avec leur grade, leur niveau et leurs sorts.
+- Combats d'âmes : une équipe de 3 âmes contre des âmes de son niveau (facile, normal, difficile), sur le plateau des combats, avec les vrais sorts des monstres. Une âme vaincue est seulement K.O. ; les victoires rapportent des kamas et font monter les âmes de grade (jusqu'à 5). En solo pour l'instant.
+
+**Équilibrage**
+- Chasses : le niveau des monstres suit celui du personnage (le niveau du groupe, comme dans Dofus). Les chasses de haut niveau ne sont plus quasi impossibles, et la fenêtre de chasse indique le niveau des monstres.
+- Un joueur seul en chasse affronte vraiment des monstres affaiblis à tous les niveaux (avant, ça ne jouait presque plus à haut niveau).
+
+**Corrections**
+- Le village : cliquer sur un soleil fait changer de lieu, comme dans Dofus.
+
+
 ## 0.2.7
 
 **Combat**
