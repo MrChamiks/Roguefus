@@ -16,6 +16,11 @@ Il faut ton propre **client Dofus 1.29** (le dossier qui contient `clips` et `da
 
 Tes personnages et tes options restent dans le dossier `RogueFus`. Les mises à jour se font depuis le jeu (écran titre, ou Options › Vérifier les mises à jour). Pour désinstaller, supprimer le dossier.
 
+## Commandes au village
+
+- Clic sur une case : y aller (en courant sur les longs trajets)
+- `ZQSD` / flèches (ou le stick de la manette) : se déplacer librement ; tenir `Maj` (LT à la manette) pour courir
+
 ## Commandes en combat
 
 - Clic sur une case : se déplacer (le chemin et le coût en PM s'affichent au survol)

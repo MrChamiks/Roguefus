@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.2.7
+
+**Combat**
+- Ordre de jeu fidèle à Dofus : les équipes jouent chacune leur tour, et l'ordre s'affiche dès le placement.
+- Niveau des combattants dans leur fiche, et au survol pendant le placement.
+- Durées des effets : le tour où on se lance un sort ne compte plus (Mot de Prévention 1 tour tient jusqu'à la fin du tour suivant).
+- Sorts qui ne touchent que certaines cibles : l'Épée Divine ne blesse plus les alliés, et ainsi de suite pour tous les sorts concernés.
+- Ennemis invisibles vraiment invisibles : ni silhouette, ni son, ni fiche ou portée au survol, et ils ne bloquent plus la ligne de vue ; marcher sur l'un d'eux arrête le personnage : « Quelque chose bloque le passage ».
+- « Fin du tour » pendant une action : le tour passe une fois l'action finie.
+- Animations de sorts corrigées : Flèche Enflammée, Destructrice, Punitive et une vingtaine d'autres ; Couper et plusieurs effets ne se rejouent plus en boucle.
+- Sons : coup critique et échec critique remis à l'endroit, sons des attaques sur dragodinde et de l'arc du Crâ.
+- Icônes d'effets juste au-dessus des têtes ; la file d'attente ne coupe plus le combattant actif.
+
+**Village et donjons**
+- Course sur les longs trajets, et en tenant Maj (LT à la manette) en déplacement libre.
+- Soin complet entre chaque salle de donjon et chaque étage de la Tour.
+- Expérience : une salle de donjon ou un étage de la Tour rapporte toujours plus qu'une chasse difficile de son niveau.
+- Dragodindes : le cavalier porte sa coiffe, sa cape et son équipement, et les autres joueurs le voient monté.
+- Toujours pleine vie au village (un malus de vitalité ne retire plus de PV).
+
+**Objets**
+- Résistances fixes (Amulette de l'Homme Ours…) et prospection prises en compte (la prospection augmente les chances de butin).
+- Sacs à dos : portés à la place de la cape et dessinés sur le personnage ; certains complètent une panoplie (Sac-Cawotte du Wabbit…).
+- Les pièces de panoplie qui ne donnent rien seules (Ceinture du Bouftou, Ceinture en Mousse…) se trouvent de nouveau, pour compléter leur panoplie.
+- Retirés du jeu : la panoplie du Champion, les armes éthérées et les objets qui ne donnaient rien (hors panoplie).
+
+
 ## 0.2.6
 
 **Combat**
