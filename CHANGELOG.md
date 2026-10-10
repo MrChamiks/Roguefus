@@ -1,25 +1,22 @@
 # Changelog
 
-## 0.2.8
+## 0.3
+
+Cette version réunit les nouveautés des 0.2.7 et 0.2.8.
 
 **Arène des âmes**
-- Nouvelle Taverne des âmes : le soleil à côté du panneau des contrats y mène. Ilyzaelle, la maîtresse des âmes, y vend des pierres d'âme.
-- Capture : après une victoire en chasse, en donjon ou dans la Tour, l'âme d'un monstre vaincu se capture avec des pierres d'âme (une chance sur deux, une sur cinq pour un boss).
+- Nouvelle Taverne des âmes : le soleil à côté du panneau des contrats y mène. Ilyzaelle, la maîtresse des âmes, y vend les pierres d'âme du jeu (petites, moyennes et grandes ; hasardeuses, normales et heureuses).
+- Capture comme dans Dofus : une pierre d'âme en main, lancez le sort « Capture d'âmes » pendant un combat de chasse, de donjon ou de la Tour. À la victoire, tentez votre chance sur chaque monstre vaincu avec une pierre assez puissante pour son niveau (sinon : « Pierre d'âme de niveau supérieur requise »). La pierre est utilisée même si l'âme s'échappe ; les chances sont celles de la pierre plus le bonus du sort, moitié moins contre un boss.
 - Bestiaire : jusqu'à 60 âmes, avec leur grade, leur niveau et leurs sorts.
-- Combats d'âmes : une équipe de 3 âmes contre des âmes de son niveau (facile, normal, difficile), sur le plateau des combats, avec les vrais sorts des monstres. Une âme vaincue est seulement K.O. ; les victoires rapportent des kamas et font monter les âmes de grade (jusqu'à 5). En solo pour l'instant.
-
-**Équilibrage**
-- Chasses : le niveau des monstres suit celui du personnage (le niveau du groupe, comme dans Dofus). Les chasses de haut niveau ne sont plus quasi impossibles, et la fenêtre de chasse indique le niveau des monstres.
-- Un joueur seul en chasse affronte vraiment des monstres affaiblis à tous les niveaux (avant, ça ne jouait presque plus à haut niveau).
-
-**Corrections**
-- Le village : cliquer sur un soleil fait changer de lieu, comme dans Dofus.
-
-
-## 0.2.7
+- Combats d'âmes : une équipe de 3 âmes contre des âmes de son niveau (facile, normal, difficile), sur le plateau des combats, avec les vrais sorts des monstres. Une âme vaincue est seulement K.O. ; les victoires rapportent des kamas et font monter les âmes de grade (jusqu'à 5). Pas de capture dans l'arène. En solo pour l'instant.
+- Les pierres d'âme achetées en 0.2.8 deviennent des Petites Pierres d'âme dans le sac.
 
 **Combat**
+- Fin de combat comme dans Dofus : durée et nombre de tours, challenges réussis ou échoués, tableau des gagnants et des perdants (niveau et barre d'expérience, XP gagnée, kamas, objets gagnés), puis le journal (niveaux, sorts, succès).
+- Défaite : le même tableau, puis une stèle pour chaque personnage mort, avec le portrait de sa classe.
+- Placement sans fenêtre : le bouton de fin de tour sert de « Prêt ». En coop, on l'annule pour bouger encore, et les épées croisées de Dofus apparaissent au-dessus des joueurs prêts.
 - Ordre de jeu fidèle à Dofus : les équipes jouent chacune leur tour, et l'ordre s'affiche dès le placement.
+- IA : les monstres blessés se battent jusqu'au bout, ceux qui frappent au corps à corps ne restent plus à distance, et un glyphe n'est traversé que s'il n'y a pas d'autre chemin (plus de monstres qui refusent d'attaquer).
 - Niveau des combattants dans leur fiche, et au survol pendant le placement.
 - Durées des effets : le tour où on se lance un sort ne compte plus (Mot de Prévention 1 tour tient jusqu'à la fin du tour suivant).
 - Sorts qui ne touchent que certaines cibles : l'Épée Divine ne blesse plus les alliés, et ainsi de suite pour tous les sorts concernés.
@@ -29,18 +26,30 @@
 - Sons : coup critique et échec critique remis à l'endroit, sons des attaques sur dragodinde et de l'arc du Crâ.
 - Icônes d'effets juste au-dessus des têtes ; la file d'attente ne coupe plus le combattant actif.
 
+**Équilibrage**
+- Monstres et personnages tels que dans Dofus : plus de monstres affaiblis quand on est peu nombreux, plus de monstres renforcés dans la Tour, et la vie des classes redevient celle d'origine (fin des bonus de vie du Féca et du Pandawa).
+- Chasses : on dose le combat par la composition du groupe, dont le niveau total suit celui des personnages (le niveau de groupe de Dofus), selon la difficulté choisie. La fenêtre de chasse indique le niveau des monstres.
+- Tour sans Fin : elle se durcit par la composition de ses étages, plus par les caractéristiques des monstres.
+- Donjons : tels que dans le jeu de base en difficulté normale (Héroïque et Mythique gardent leurs monstres renforcés).
+- Expérience : une salle de donjon ou un étage de la Tour rapporte toujours plus qu'une chasse difficile de son niveau.
+
 **Village et donjons**
+- La barre d'icônes ne mène plus aux PNJ : on va voir le forgeron, la chasse, les donjons et l'arène des âmes sur l'île. Icônes de Dofus pour l'Équipe, les Succès, le Multijoueur et les Émotes.
+- Cliquer sur un soleil fait changer de lieu, comme dans Dofus.
 - Course sur les longs trajets, et en tenant Maj (LT à la manette) en déplacement libre.
 - Soin complet entre chaque salle de donjon et chaque étage de la Tour.
-- Expérience : une salle de donjon ou un étage de la Tour rapporte toujours plus qu'une chasse difficile de son niveau.
 - Dragodindes : le cavalier porte sa coiffe, sa cape et son équipement, et les autres joueurs le voient monté.
 - Toujours pleine vie au village (un malus de vitalité ne retire plus de PV).
 
 **Objets**
+- Pierres d'âme : tenues en main à la place de l'arme, elles donnent le sort « Capture d'âmes ».
 - Résistances fixes (Amulette de l'Homme Ours…) et prospection prises en compte (la prospection augmente les chances de butin).
 - Sacs à dos : portés à la place de la cape et dessinés sur le personnage ; certains complètent une panoplie (Sac-Cawotte du Wabbit…).
 - Les pièces de panoplie qui ne donnent rien seules (Ceinture du Bouftou, Ceinture en Mousse…) se trouvent de nouveau, pour compléter leur panoplie.
 - Retirés du jeu : la panoplie du Champion, les armes éthérées et les objets qui ne donnaient rien (hors panoplie).
+
+**Interface**
+- Plus aucune fenêtre du navigateur : les confirmations (supprimer un personnage, duel à mort, réinitialiser, restaurer une sauvegarde…) s'ouvrent dans le style du jeu.
 
 
 ## 0.2.6
