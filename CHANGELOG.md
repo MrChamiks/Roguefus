@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.1
+
+**Combat**
+- Challenge Zombie : il échoue désormais si un personnage finit son tour sans bouger ou se fait tacler (il demande un PM, pas un de plus ni un de moins). Il ne sort plus avec Statue.
+- Sur dragodinde : le son Pandi Spell se joue enfin, et seulement sur les sorts qui font des dégâts.
+
+**Dragodindes**
+- Les dragodindes courent avec leur vraie animation de course, cavalier en selle.
+- Monter et descendre de sa dragodinde se fait tout de suite, sans temps d'attente.
+
+**Village**
+- Retouches de la Taverne des âmes et de l'île.
+
+
 ## 0.3
 
 Cette version réunit les nouveautés des 0.2.7 et 0.2.8.
