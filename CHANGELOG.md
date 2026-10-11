@@ -1,5 +1,34 @@
 # Changelog
 
+## 0.3.2
+
+**Coop**
+- Chaque joueur tire désormais son propre butin (avant, tout le monde recevait les mêmes objets).
+- L'écran de fin de combat montre aussi l'expérience, les kamas, les objets et les fragments gagnés par les autres joueurs.
+
+**Combat**
+- Un malus de portée n'empêche plus un monstre (ou un joueur) de frapper au corps à corps : la portée ne descend jamais sous 1 case pour un sort qui l'atteignait, ni sous sa portée minimale.
+- Challenges visant un monstre (« Tuer … en dernier », « en premier ») : survoler le challenge met ce monstre en évidence.
+- Le Chaton de l'Ecaflip attaque enfin ses ennemis avec Chatataque (un soin ou un coup, une fois sur deux, comme dans le jeu d'origine).
+- Le Fouet de l'Osamodas ne se lance plus que sur une invocation, alliée ou ennemie.
+
+**Donjons**
+- Les salles de donjon peuvent donner une pièce de panoplie du niveau du donjon (plus souvent dans la salle du boss et en difficulté élevée).
+- Fragments et pièces dépendent de l'écart de niveau : tout est gagné jusqu'à 10 niveaux au-dessus du contenu, de moins en moins ensuite, plus rien à partir de 40 niveaux au-dessus (fini le farm d'Incarnam en Mythique).
+- Ordre des donjons : Champs et Ensablé passent avant les Bouftous.
+- Donjon Ensablé : Mob l'Éponge n'est plus présent deux fois dans la salle du boss.
+
+**Objets et artisanat**
+- Forgemagie : « Briser plusieurs » permet de choisir plusieurs objets (non portés) et de les briser d'un coup.
+- Forgeron : les panoplies se trient par type d'objet (arme, coiffe, cape, amulette, anneau, ceinture, bottes, bouclier).
+- Les infobulles passent au-dessus des fenêtres en combat (les jets d'équipement de l'inventaire étaient cachés) et les plus longues (bonus de panoplie) s'affichent sur deux colonnes, sans être coupées.
+
+**Familiers et dragodindes**
+- Un familier ou une dragodinde, plus les deux : équiper un familier renvoie la dragodinde à l'écurie, utiliser une dragodinde range le familier dans le sac.
+- Les dragodindes se démantèlent chez l'éleveur : leurs caractéristiques deviennent des runes de forgemagie (plus elles sont de haut niveau, plus il y en a).
+- Guide d'élevage chez l'éleveur : chaque couleur pure, ce qu'elle donne, et quelles couleurs croiser pour l'obtenir.
+
+
 ## 0.3.1
 
 **Combat**
